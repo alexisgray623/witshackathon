@@ -1,0 +1,21 @@
+import "./styles.css";
+export default function Prices() {
+  return (
+    <div className= "App">
+      <h1>Target Circle</h1>
+      <h2>Silk Unsweeted Almond Milk, Half Gallon</h2>
+      <img src={requestAnimationFrame("./almond_milk2.jpg")} alt="Silk Almond Milk"
+      <br />
+      <br />
+      $3.50
+      <a href="Prices.js">
+        <button className="Button">
+          Found a lower price? Click here to submit a competitor's web link and save.
+          </button>
+          <button classname="Button2">$3.75 at Amazon</button>
+          <button className="Button2">$3.99 at Kroger</button>
+          <button className="Button2">$4.05 at Meijer</button>
+      </a>
+    </div>
+  );
+}
